@@ -1,0 +1,10 @@
+# Root .gitignore - added large files and common venv ignores
+
+# Large files detected (>100MB)
+/Backend/end.h5
+
+# Virtual environment (contains large binary files)
+/Backend/venv/
+
+# Specific large binary detected inside venv
+/Backend/venv/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
